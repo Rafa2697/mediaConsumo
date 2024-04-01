@@ -1,7 +1,8 @@
 import React from "react";
 
 import { NavigationContainer } from "@react-navigation/native";
-import { createDrawerNavigator } from '@react-navigation/drawer'
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import Home from '../home/index'
 import Form from '../form/index'
 import Form2 from '../form2/index'
 import styles from "./style";
@@ -11,6 +12,7 @@ const Main = () => {
     return (
         <NavigationContainer style={styles.main}>
             <Drawer.Navigator>
+                <Drawer.Screen name="Home" component={Home} />
                 <Drawer.Screen name="Media Consumo" component={Form} />
                 <Drawer.Screen name="Gasto Trajeto" component={Form2} />
             </Drawer.Navigator>
