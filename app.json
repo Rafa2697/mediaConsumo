@@ -2,14 +2,14 @@
   "expo": {
     "name": "mediaConsumo",
     "slug": "mediaConsumo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/favicon-32x32.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/logoApp.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/logoApp.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.rafael.mattos.mediaConsumo"
+      "package": "com.RafaelMattos.mediaConsumo"
     },
     "web": {
       "favicon": "./assets/favicon-32x32.png"
