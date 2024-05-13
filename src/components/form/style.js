@@ -12,10 +12,14 @@ const styles = StyleSheet.create({
         borderTopRightRadius: 30,
     },
     form: {
+        
         width: "100%",
         height: "auto",
         marginTop: 30,
         padding: 10,
+        gap: 8,
+        justifyContent: "center",
+        alignItems: "center",
     },
     formLabel: {
         color: 'black',
@@ -25,22 +29,25 @@ const styles = StyleSheet.create({
     formInput: {
         width: '90%',
         borderRadius: 10,
-        backgroundColor: '#f6f6f6',
-        height: 40,
-        margin: 12,
+        backgroundColor: '#F1F4FF',
+        height: 60,
+        fontSize: 16,
+        
         paddingLeft: 10,
     },
     textButtom: {
         fontSize: 20,
         color: 'white',
+        fontWeight:'bold'
 
     },
     button: {
-        borderRadius: 30,
+        borderRadius: 10,
         alignItems: 'center',
         justifyContent: 'center',
-        width: '90%',
-        backgroundColor: '#ff0043',
+        width: 200,
+        height: 60,
+        backgroundColor: '#1F41BB',
         paddingTop: 14,
         paddingBottom: 14,
         marginLeft: 12,
@@ -50,7 +57,7 @@ const styles = StyleSheet.create({
         fontSize: 12,
         color: 'red',
         fontWeight: 'bold',
-        paddingLeft: 20,
+
     }
 });
 
